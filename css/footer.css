@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark);
+  color: var(--bright);
+  padding: 1rem;
+  margin-top: 40px;
+
+}
+
+.name p{
+  color: var(--bright);
+  padding: 0.8rem;
+}
+.footer a img {
+  height: 50px;
+}
+
+ul#ulfooter{
+  display:flex ;
+  flex-direction:row;
+  justify-content: center;
+
+}
+.name, .nombres{
+  text-align: left;
+  
+}
+li {
+  padding-top: 1rem;
+}
+.logos ul li {
+  padding-left: 3.6rem;
+}
+ul.email {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 2rem;
+  font-size: 20px;
+}
+
+.footer div:first-of-type p {
+  text-align: center;
+}
+
+.logos h4{
+  text-align: center;
+  
+}
+.logos ul :first-child {
+  padding: 0 ;
+  margin-top: 1rem;
+ 
+}

@@ -1,0 +1,84 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+.btn,
+.ghost {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  height: 40px;
+  margin: 3rem 1rem 2rem 1rem;
+  cursor: pointer;
+}
+
+.botonHome button {
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+}
+.botonCrear button {
+  width: 160px;
+  height: 70px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: var(--bright);
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+  font-weight: bold;
+}
+
+.btn.bright {
+  background-color: var(--bright);
+  color: var(--dark);
+}
+
+.btn.error {
+  background-color: var(--ko);
+}
+
+.btn.error:hover {
+  color: var(--bright);
+}
+
+.btn[disabled] {
+  opacity: 0.5;
+  background: var(--secondary);
+  color: var(--bright);
+  font-size: 1rem !important;
+  transition: none;
+  font-weight: normal;
+  outline: none;
+  border: none;
+}
+
+.fa {
+  display: inline;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#cabeceraDeQuedada {
+  margin-bottom: 3rem;
+}

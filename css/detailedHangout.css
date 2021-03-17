@@ -1,0 +1,62 @@
+#cabeceraDeQuedada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 1rem 3rem 0 3rem;
+}
+
+#cabeceraDeQuedada div {
+  flex-basis: 50%;
+}
+
+#cabeceraDeQuedada #hangout-img {
+  object-fit: contain;
+  height: 500px;
+  width: 100%;
+}
+
+div#detallesAsistentes {
+  margin: 3rem 2rem 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+}
+
+#confirmados,
+#pendientes {
+  width: 50%;
+}
+
+#datosQuedada ul li {
+  text-align: center;
+}
+.avatarcontainer {
+  padding: 2rem;
+  text-align: center;
+}
+button#anotarse {
+  margin-left: 3rem;
+}
+#alertaInscrito {
+  background-color: rgba(4, 0, 255, 0.726);
+  border: none;
+}
+#alertaInscrito:hover {
+  color: white;
+  cursor: default;
+}
+
+#detailedbuttons {
+  margin-left: 5.5rem;
+  margin-bottom: 3rem;
+}
+
+#delete {
+  margin-left: 2.5rem;
+}
+
+#datosQuedada {
+  width: 600px;
+  margin: 0 auto;
+}
